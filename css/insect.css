@@ -7,5 +7,32 @@
 body {
     background-color: #516dff;
     color: #ffffff;
-    
+    font-family: "Germania One"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    border: 0;
+    background-color: #ffffff;
+    color: #516dff;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: inherit;
 }

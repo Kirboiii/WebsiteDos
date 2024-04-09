@@ -7,7 +7,7 @@
 body {
     background-color: #516dff;
     color: #ffffff;
-    font-family: "Germania One"
+    font-family: "Germania One", system-ui;
 }
 
 

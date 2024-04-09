@@ -1,4 +1,5 @@
-@import "https://fonts.googleapis.com/css2?family=Germania+One&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Germania+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,7 +8,7 @@
 body {
     background-color: #516dff;
     color: #ffffff;
-    font-family: "Germania One", system-ui;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 
@@ -34,5 +35,21 @@ body {
     color: #516dff;
     padding: 15px 20px;
     cursor: pointer;
-    font-family: inherit;
+    font-family: "Germania One", system-ui;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.screen.up {
+    margin-top: -100vh;
+}
+
+a {
+    color: #ffffff;
+}
+
+h1 {
+    line-height: 1.4;
 }

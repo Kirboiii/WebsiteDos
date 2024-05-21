@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Guilt Trip Hangman</h1>
-    <p>Find all the letters and save the man. If you don't, you're gonna be guilty that you hung a made up fictional man.</p>
+    <p>Find all the letters and save the man. If you don't, well... uh... Too bad, you'll lose the game.</p>
     <div class="game-container">
         <svg height="250" width="200" class="figure-container">
             <line x1="60" y1="20" x2="140" y2="20" class="figure-part"/>
@@ -23,24 +23,18 @@
             <line x1="140" y1="150" x2="160" y2="180" class="figure-part"/>
         </svg>
         <div class="wrong-letters-container">
-            <div id="wrong-letters">
-                <p>Wrong</p>
-                <span>e,r,t,y</span>
-            </div>
+            <div id="wrong-letters"></div>
         </div>
-        <div class="word" id="word">
-            <letter>f</letter>
-            <letter>u</letter>
-            <letter>n</letter>
-            <letter>g</letter>
-            <letter>i</letter>
-        </div>
+        <div class="word" id="word"></div>
     </div>
     <div class="popup-container" id="popup-container">
       <div class="popup">
-         <h2>You win! Good job. You're an intelligent and kind person.</h2>
-         <button id="play-again">Play again and risk this made up guy dying... If you dare!</button>
+         <h2>You win! Good job. You got lucky.</h2>
+         <button id="play-again">Play again and risk this made up guy getting hung... If you dare! MWAHAHA!</button>
       </div>
+    </div>
+    <div class="notification-container" id="notification-container">
+        <p>HEY! YOU SAID THAT ALREADY! Try again!!!</p>
     </div>
 </body>
 <script src="js/hangman.js"></script>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Biden's Jams</title>
+    <link rel="stylesheet" href="css/musicplayer.css">
+</head>
+<body>
+    <h1>Joe Biden's Epic Boombox!</h1>
+    <div class="music-container" id="music-container">
+        <div class="music-info">
+            <h4 id="title">ukulele.mp3</h4>
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+        <audio id="audio" src="music/ukulele.mp3"></audio>
+        <div class="img-container">
+            <img src="images/ukulele.jpg" alt="music-cover" class="cover" id="cover">
+        </div>
+        <div class="navigation">
+            <button class="action-btn" id="prev">
+                <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="action-btn action-btn-big" id="play">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <button class="action-btn" id="next">
+                <i class="fa-solid fa-forward"></i>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="js/musicplayer.js"></script>
+<script src="https://kit.fontawesome.com/2da1f40e22.js" crossorigin="anonymous"></script>
+</html>
